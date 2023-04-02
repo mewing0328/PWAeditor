@@ -41,7 +41,6 @@ registerRoute(
       }),
       // From Activity 20
       new ExpirationPlugin({
-        maxEntries: 60,
         maxAgeSeconds: 30 * 24 * 60 * 60, // 30 Days
       }),
     ],
