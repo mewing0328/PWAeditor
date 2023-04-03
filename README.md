@@ -25,12 +25,6 @@ A text editor that runs in the browser. PWAeditor is a single-page application t
 
 [8. Credits](#credits)
 
------------ BELOW IS JUST AN EXAMPLE -------------
-
-
-
-
-
 ## Installation 
 The application has dependencies (see package.json file). Before using the application, install npm modules.
 
@@ -42,8 +36,18 @@ npm install
 The application will be invoked by using the following command:
 
 ```bash
-node index.js OR npm start
+npm run start dev
 ```
+
+
+
+----------- BELOW IS JUST AN EXAMPLE -------------
+
+
+
+
+
+
 ```
 The social network application enables a user to:
 - invoke the application THEN my server is started and the Mongoose models are synced to the MongoDB database
@@ -112,24 +116,28 @@ PWAeditor:
 
  ## Demo and Screenshots 
 
-1. Demo utilizing the browser and the application:
+1. Demo installing the application from the browser:
+
+    <img src="./Assets/application.gif">
+
+2. Demo utilizing the browser and the application:
 
     <img src="./Assets/demo.gif">
 
 
-2. Image of the brower website and application open at the same time
+3. Image of the brower website and application open at the same time
 
     <img src="./Assets/browser_and_application.png">
 
-3. Image of IndexedDB
+4. Image of IndexedDB
 
     <img src="./Assets/idb-storage.png">
 
-4. Image of Manifest
+5. Image of Manifest
 
     <img src="./Assets/manifest.png">
 
-5. Image of Service Worker
+6. Image of Service Worker
 
     <img src="./Assets/service-worker.png">
 
