@@ -3,12 +3,10 @@ A single-page application to create notes or code snippets with or without an in
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-
------------ BELOW IS JUST AN EXAMPLE -------------
-
-
 ## Description
-The back end of a social network application with a working Express.js API to use Mongoose to interact with MongoDB database to demonstrate CRUD. Insomnia application was utilized to demo the routes.
+A text editor that runs in the browser. PWAeditor is a single-page application that meets the PWA criteria and features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. 
+- The application will also function offline.
+- The application uses a package called `idb`, which is a lightweight wrapper around the IndexedDB API. 
 
 ## Table of Contents
 [1. Installation](#installation)
@@ -26,6 +24,11 @@ The back end of a social network application with a working Express.js API to us
 [7. License](#license)
 
 [8. Credits](#credits)
+
+----------- BELOW IS JUST AN EXAMPLE -------------
+
+
+
 
 
 ## Installation 
@@ -99,19 +102,12 @@ THEN I should have proper build scripts for a webpack application
 [Heroku Link](https://pwaeditor.herokuapp.com/) 
 
 ```
-* Application deployed to Heroku at live URL with build scripts
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
+PWAeditor:
+* is deployed to Heroku at live URL with build scripts
+* loads with no errors
+* user experience is intuitive and easy to navigate
+* user interface style is clean and polished
+* resembles the mock-up functionality provided in the Challenge instructions
 ```
 
  ## Demo and Screenshots 
