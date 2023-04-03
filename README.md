@@ -1,10 +1,11 @@
 # PWAeditor
 A single-page application to create notes or code snippets with or without an internet connection.
 
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
 ----------- BELOW IS JUST AN EXAMPLE -------------
-[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 
 ## Description
 The back end of a social network application with a working Express.js API to use Mongoose to interact with MongoDB database to demonstrate CRUD. Insomnia application was utilized to demo the routes.
@@ -16,7 +17,7 @@ The back end of a social network application with a working Express.js API to us
 
 [3. Heroku Link](#heroku-link)
 
-[4. Screenshots](#screenshots)
+[4. Demo and Screenshots](#demo-and-screenshots)
 
 [5. Contributing](#contributing)
 
@@ -95,7 +96,7 @@ THEN I should have proper build scripts for a webpack application
 ```
 
 ## Heroku Link
-[Heroku Link](xx) 
+[Heroku Link](https://pwaeditor.herokuapp.com/) 
 
 ```
 * Application deployed to Heroku at live URL with build scripts
@@ -113,40 +114,28 @@ THEN I should have proper build scripts for a webpack application
 
 ```
 
- ## Screenshots 
+ ## Demo and Screenshots 
 
-1. Shows GET routes to return all users and all thoughts being tested in Insomnia:
+1. Demo utilizing the browser and the application:
 
-    <img src="./assets/getAllUsers.png" style="width:15rem">
-    <img src="./assets/getAllThoughts.png" style="width:15rem">
+    <img src="./Assets/demo.gif">
 
 
-2. Shows GET routes to return a single user and a single thought being tested in Insomnia:
+2. Image of the brower website and application open at the same time
 
-    <img src="./assets/getSingleUsers.png" style="width:15rem">
-    <img src="./assets/getSingleThought.png" style="width:15rem">
+    <img src="./Assets/browser_and_application.png">
 
-3. Shows the POST, PUT, and DELETE routes for users being tested in Insomnia:
+3. Image of IndexedDB
 
-    <img src="./assets/postUser.png" style="width:15rem">
-    <img src="./assets/putUser.png" style="width:15rem">
-    <img src="./assets/deleteUser.png" style="width:15rem">
+    <img src="./Assets/idb-storage.png">
 
-4. Shows the POST, PUT, and DELETE routes for thoughts being tested in Insomnia:
+4. Image of Manifest
 
-    <img src="./assets/postThought.png" style="width:15rem">
-    <img src="./assets/putThought.png" style="width:15rem">
-    <img src="./assets/deleteThought.png" style="width:15rem">
+    <img src="./Assets/manifest.png">
 
-5. Shows the POST and DELETE routes for a user’s friend list being tested in Insomnia:
+5. Image of Service Worker
 
-    <img src="./assets/postFriend.png" style="width:15rem">
-    <img src="./assets/deleteFriend.png" style="width:15rem">
-
-6. Show the POST and DELETE routes for reactions to thoughts being tested in Insomnia:
-
-    <img src="./assets/putReaction.png" style="width:15rem">
-    <img src="./assets/deleteReaction.png" style="width:15rem">
+    <img src="./Assets/service-worker.png">
 
 ## Contributing 
 Contributions are welcomed for future versions with features such as additional enhancements.
@@ -171,7 +160,7 @@ PWAeditor application is covered by MIT license.
 Credit for tutorials and guides I utilized in my code
 
 George Washington University - Coding Bootcamp: Repository Lesson 19-PWA
- - Activity 28-Stu_Mini-Project was the majority of examples used
+ - Activity 28-Stu_Mini-Project was the majority of what was utilized for examples
 
 [webpack.js.org](https://webpack.js.org/): Documentation for utilizing webpack
 
